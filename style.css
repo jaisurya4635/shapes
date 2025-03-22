@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+#input{
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/amazing-video-game-art-wallpapers-sci-fi-videogames-game.png" );
+    width:100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(8, 223, 223);
+}
+h1{
+    font-size: 5em;
+}
+p{
+    font-size: 1.5em;
+}
+#number{
+    width:150px;
+    height:40px;
+    font-size:2em;
+    padding-bottom:10px;
+}
+#button{
+    
+    width:120px;
+    height:40px;
+    font-size: 1.2em;
+    background-color: rgba(32, 27, 27, 0.768);
+    color:rgb(8, 223, 223);
+    border: none;
+}
+.circle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:black;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    background-color: orangered;
+}
+.square{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:black;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 0, 8);
+}
+.rectangle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:black;
+    height:25px;
+    width: 70px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(81, 255, 0);
+}
+#box{
+    display:flex;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid orangered; /* Change color dynamically in JS */
+    display: inline-block;
+    margin: 10px;
+}
